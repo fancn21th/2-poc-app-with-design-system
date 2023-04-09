@@ -7,3 +7,17 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 ## What do we need?
 
 [ ] conventional commit
+
+## Setup Steps
+
+1. Activate hooks
+
+```shell
+  npx husky install
+
+  npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+```
+
+## References
+
+- [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
