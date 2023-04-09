@@ -7,8 +7,10 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 ## What do we need?
 
 - [x] conventional commit
-
-- [ ] lerna
+- [x] lerna
+- [ ] `utils` library in typescript
+- [ ] `storybook` intro to `design-system`
+- [ ] `admin` project in react with ts
 
 ## Setup Steps
 
