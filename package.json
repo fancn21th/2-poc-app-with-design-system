@@ -13,8 +13,10 @@
   "devDependencies": {
     "@commitlint/cli": "17.5.1",
     "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/config-lerna-scopes": "17.4.2",
     "husky": "8.0.3",
-    "lerna": "^6.6.1"
+    "lerna": "^6.6.1",
+    "lerna-changelog": "2.2.0"
   },
   "workspaces": [
     "packages/*"
