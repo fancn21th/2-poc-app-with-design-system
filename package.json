@@ -6,9 +6,17 @@
   "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "dev": "lerna run dev"
+  },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",
     "@commitlint/config-conventional": "17.4.4",
-    "husky": "8.0.3"
-  }
+    "husky": "8.0.3",
+    "lerna": "^6.6.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

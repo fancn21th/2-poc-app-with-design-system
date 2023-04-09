@@ -6,7 +6,9 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 
 ## What do we need?
 
-[ ] conventional commit
+- [x] conventional commit
+
+- [ ] lerna
 
 ## Setup Steps
 
@@ -16,6 +18,14 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
   npx husky install
 
   npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+```
+
+## Commands
+
+1. Show Deps
+
+```shell
+  npx nx graph
 ```
 
 ## References
