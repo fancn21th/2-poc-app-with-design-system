@@ -8,7 +8,7 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 
 - [x] conventional commit
 - [x] lerna
-- [ ] `utils` library in typescript
+- [x] `utils` library in typescript
 - [ ] `storybook` intro to `design-system`
 - [ ] `admin` project in react with ts
 
