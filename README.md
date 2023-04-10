@@ -4,6 +4,22 @@
 
 It is trivial and cumbersome to setup a new web project nowadays. Since so many tools and libs out there for achieving different purposes. There is no industry standard for web project setup. Only good patterns and best practices.
 
+## How to start
+
+1. Install dependencies
+
+```shell
+  yarn
+```
+
+2. Activate hooks
+
+3. Start with `dev` command
+
+```shell
+  yarn dev
+```
+
 ## What do we need?
 
 - [x] conventional commit
