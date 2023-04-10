@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "build": "lerna run build",
-    "dev": "lerna run dev"
+    "dev": "lerna run dev --parallel"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",
@@ -19,6 +19,7 @@
     "lerna-changelog": "2.2.0"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/*/*"
   ]
 }

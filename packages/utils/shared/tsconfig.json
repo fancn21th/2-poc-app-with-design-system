@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // where to put the TS files
+    "target": "ES6" // which JS version to compile to
+  },
+  "include": ["src"], // which files to compile
+  "exclude": ["node_modules", "dist"] // which files to ignore
+}

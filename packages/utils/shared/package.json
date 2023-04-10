@@ -1,0 +1,17 @@
+{
+  "name": "@wh/shared",
+  "version": "1.0.0",
+  "author": "fancn21th <fancn21th@aliyun.com> (http://fancn21th.cn/)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.0"
+  },
+  "scripts": {
+    "dev": "tsc --watch --preserveWatchOutput"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ]
+}
