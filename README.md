@@ -46,6 +46,12 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
   npx nx graph
 ```
 
+2. Add Internal dependency
+
+```shell
+  lerna add @wh/shared --scope '@wh/design-system'
+```
+
 ## References
 
 - [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
