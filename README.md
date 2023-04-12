@@ -25,8 +25,10 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 - [x] conventional commit
 - [x] lerna
 - [x] `utils` library in typescript
-- [ ] `storybook` intro to `design-system`
-- [ ] `admin` project in react with ts
+- [x] `storybook` intro to `design-system`
+- [x] `admin` project in react with ts
+- [ ] `button` added in `design-system`
+- [ ] `button` consumed in `admin`
 
 ## Setup Steps
 
@@ -47,6 +49,8 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 ```
 
 2. Add Internal dependency
+
+[lerna add command](https://github.com/lerna/lerna/tree/main/libs/commands/add)
 
 ```shell
   lerna add @wh/shared --scope '@wh/design-system'
