@@ -3,8 +3,13 @@ import styled from 'styled-components';
 
 const StyledButton = styled.button``;
 
-const Button = () => {
-  return <StyledButton>Button</StyledButton>;
+type ButtonProps = {
+  label: string;
+  onClick: () => void;
+};
+
+const Button = ({ label, onClick }: ButtonProps) => {
+  return <StyledButton onClick={onClick}>{label}</StyledButton>;
 };
 
 export default Button;
