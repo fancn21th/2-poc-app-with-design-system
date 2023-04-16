@@ -9,7 +9,8 @@
   "scripts": {
     "build": "lerna run build",
     "dev": "lerna run dev --parallel",
-    "storybook": "lerna run storybook --stream"
+    "storybook": "lerna run storybook --stream",
+    "build-storybook": "lerna run build-storybook --stream"
   },
   "devDependencies": {
     "@commitlint/cli": "17.5.1",

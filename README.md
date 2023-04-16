@@ -27,8 +27,8 @@ It is trivial and cumbersome to setup a new web project nowadays. Since so many 
 - [x] `utils` library in typescript
 - [x] `storybook` intro to `design-system`
 - [x] `admin` project in react with ts
-- [ ] `button` added in `design-system`
-- [ ] `button` consumed in `admin`
+- [x] `button` added in `design-system`
+- [x] `button` consumed in `admin`
 
 ## Setup Steps
 

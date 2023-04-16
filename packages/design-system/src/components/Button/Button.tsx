@@ -2,14 +2,16 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-const StyledButton = styled.button``;
+const StyledButton = styled.button`
+  color: red;
+`;
 
-type ButtonProps = {
+export type ButtonProps = {
   label: string;
   onClick: () => void;
 };
 
-const Button = ({ label = 'Button', onClick }: ButtonProps) => {
+export const Button = ({ label = 'Button', onClick }: ButtonProps) => {
   return <StyledButton onClick={onClick}>{label}</StyledButton>;
 };
 
@@ -28,5 +30,3 @@ const Button = ({ label = 'Button', onClick }: ButtonProps) => {
 //   label: PropTypes.string.isRequired,
 //   onClick: PropTypes.func.isRequired,
 // };
-
-export default Button;

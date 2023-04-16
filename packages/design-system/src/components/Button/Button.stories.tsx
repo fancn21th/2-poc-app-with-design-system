@@ -3,7 +3,7 @@ import React from 'react';
 
 import type { Meta, StoryObj } from '@storybook/react';
 
-import Button from './Button';
+import { Button, ButtonProps } from './Button';
 
 const meta = {
   title: 'Design System/Components/Button',
@@ -15,7 +15,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Primary: Story = (args) => <Button {...args} />;
+export const Primary: Story = (args: JSX.IntrinsicAttributes & ButtonProps) => <Button {...args} />;
 
 Primary.args = {
   label: 'Button',
